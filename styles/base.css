@@ -36,25 +36,65 @@ nav a:hover {
 
 main {
     display: grid;
-    grid-template-columns: 75% 25%; 
+    grid-template-columns: 75% 25%;
 }
 
 .card {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto auto;
-
+    grid-template-rows: 40px auto;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     border: 3px solid darkblue;
     border-radius: 10px;
+    background-color: rgb(29, 174, 241);
+    font-weight: 700;
 }
 
-.card img {
-    max-width: 300px;
+.pic {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
+
 }
 
 .card h2 {
+    border-bottom: 2px solid darkblue;
     grid-column: 1 / -1;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.card p {
+    max-width: 80%;
+    font-size: large;
+}
+
+.card a {
+    font-size: large;
+    grid-column: 1 / -1;
+}
+
+.flag {
+    width: 135%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.ca {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+.ca p {
+    margin-left: 25%;
+    /* grid-column: 2 / 4; */
+    max-width: 80%;
+    
 }
