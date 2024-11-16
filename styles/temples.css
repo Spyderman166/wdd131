@@ -5,7 +5,7 @@ body {
 .navigation {
     display: flex;
     background-color: #0cbaff;
-    color: #fff;
+    color: black;
     align-items: start;
     justify-content: space-between;
     padding: 5px;
@@ -16,12 +16,12 @@ nav a {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: black;
 }
 
 nav a:hover {
     background-color: #007497;
-    color: #ffffff;
+    color: black;
     font-weight: 700;
 }
 
