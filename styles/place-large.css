@@ -1,0 +1,54 @@
+@media screen and (min-width: 800px) {
+    :root {
+        --bg-transparent: rgba(255, 255, 255, 0.5)
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    section {
+        position: absolute;
+        background-color: var(--bg-transparent);
+
+    }
+
+    h2 {
+        background-color: var(--bg-color1);
+        color: var(--text-color);
+        margin-left: -20px;
+        padding: 5px;
+        text-align: start;
+    }
+
+    .data {
+        border: none;
+        top: 60px;
+        left: 20px;
+    }
+
+    .weather {
+        top: 300px;
+        right: 10px;
+    }
+
+    #weatherIcon {
+        display: none;
+    }
+
+    #w::after {
+        content: "🔆";
+    }
+
+    footer {
+        padding: 20px;
+        flex: 1;
+        align-content: center;
+    }
+}

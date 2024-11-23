@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 Italy Site</title>
+    <meta name="description" content="Site about a real world location for WDD131">
+    <meta name="author" content="Ryder Bailey">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Italy</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/italy-hero-wide.webp" media="(min-width: 2000px)">
+                <source srcset="images/italy-hero-large.webp" media="(min-width: 800px)">
+                <img src="images/italy-hero-small.webp" alt="Picture of Italy" width="400px" height="600px">
+            </picture>
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <p><b>Area:</b> 116,631 sq mi</p>
+            <p><b>Population:</b> 59,342,867</p>
+            <p><b>Capitol:</b> Rome</p>
+            <p><b>Language:</b> Italian</p>
+            <p><b>Currency:</b> Euro</p>
+            <p><b>Time Zone:</b> GMT+1</p>
+            <p><b>Calling Code:</b> +39</p>
+            <p><b>Internet TLD:</b> .it</p>
+        </section>
+        <section class="weather">
+            <h2 id="w">Weather </h2>
+            <img src="images/sun-icon.svg" alt="Weather Icon" id="weatherIcon">
+            <p><b>Temperature:</b> 45 °F</p>
+            <p><b>Conditions:</b> Clear</p>
+            <p><b>Wind:</b> 5mph</p>
+            <p><b>Wind Chill:</b> <span id="windChill"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span> 🎸 Ryder Bailey 🎸 Italy</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

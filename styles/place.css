@@ -1,0 +1,58 @@
+:root {
+    --bg-color1: rgb(0, 102, 31);
+    --bg-color2: rgb(185, 2, 2);
+    --text-color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--bg-color1);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-color: var(--bg-color2);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+section {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+h2 {
+    padding-bottom: 10px;
+    ;
+}
+
+section img {
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--bg-color1);
+    color: var(--text-color);
+    padding: 10px;
+    font-size: large;
+}
+
+.data {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 20px;
+}
