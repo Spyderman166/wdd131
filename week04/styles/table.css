@@ -1,0 +1,43 @@
+body {
+    padding: 5px;
+}
+
+table {
+    width: 300px;
+    text-align: center;
+    border-collapse: collapse;
+    position: relative;
+}
+
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.blank {
+    background-color: black;
+}
+
+.title {
+    background-color: black;
+    color: white;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: smaller;
+    padding: 0.2rem;
+}
+
+thead {
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
