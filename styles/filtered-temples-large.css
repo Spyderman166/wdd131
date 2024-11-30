@@ -1,0 +1,33 @@
+@media screen and (min-width: 650px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .navigation {
+        display: flex;
+        background-color: #0cbaff;
+        color: black;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav a {
+        display: flex;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    section {
+        grid-column: 1/-1 ;
+    }
+}
