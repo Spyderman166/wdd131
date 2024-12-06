@@ -1,0 +1,54 @@
+:root {
+    --font: 'Roboto' serif;
+    --navColor: rgb(4, 49, 196);
+    --headerColor: rgb(255, 251, 0);
+    --headerColor2: rgb(180, 1, 1);
+}
+
+* {
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--navColor);
+    color: var(--headerFont);
+}
+
+nav {
+    position: absolute;
+    right: 1rem;
+}
+
+div {
+    display: flex;
+    gap: 10vw;
+}
+
+#large {
+    max-width: 65vw;
+}
+
+#small {
+    max-width: 25vw;
+    
+}
+
+p {
+    padding: 1rem;
+}
+
+ul {
+    padding: 1.5rem;
+}
+
+.yellow {
+    color: var(--headerColor);
+    background-color: var(--navColor);
+}
+
+.red {
+    color: var(--headerColor2);
+    font-family: 'Roboto', serif;
+}
