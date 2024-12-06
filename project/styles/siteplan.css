@@ -13,7 +13,7 @@
 
 header {
     background-color: var(--navColor);
-    color: var(--headerFont);
+    color: var(--headerColor);
 }
 
 nav {
@@ -32,7 +32,7 @@ div {
 
 #small {
     max-width: 25vw;
-    
+
 }
 
 p {
