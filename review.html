@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="styles/form-small.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script>
+        window.onload = function() {
+        // Retrieve the submission counter from localStorage
+        const counter = localStorage.getItem("formSubmissions") || 0;
+    
+        document.getElementById("count").textContent = counter;
+    };</script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <div class="thanks">
+            <h2>Your review has been sent <br>Thank you</h2>
+            <h2>Review(s) sent: <span id="count"></span></h2>
+        </div>
+        
+    </main>
+    <footer>
+        <p>© <span id="currentYear"></span> - Ryder Bailey - California</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

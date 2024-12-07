@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="description" content="WDD131 Form assignment">
+    <meta name="author" content="Ryder Bailey">
+    <link rel="stylesheet" href="styles/form-small.css">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" id="form1">
+            <fieldset class="product">
+                <label>Product Name*
+                    <select name="prod-name" id="prodName" required>
+                        <option value="" selected disabled>Select a Product... </option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Overall Rating*</label>
+                    <div class="stars">
+                        <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                        <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                        <input type="radio" id="threestar" name="stars" value="3" required><label
+                            for="threestar"></label>
+                        <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                        <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                    </div>
+                
+
+            </fieldset>
+            <fieldset>
+                <label>Date of Installation*
+                    <input type="date" name="install-date" id="installDate">
+                </label>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label>Which features did you find useful? <br><i>(check all that apply)</i></label>
+                        <label><input type="checkbox" name="check1" id="check1"> Durability</label>
+                        <label><input type="checkbox" name="check2" id="check2"> Ease of Use</label>
+                        <label><input type="checkbox" name="check3" id="check3"> Performance</label>
+                        <label><input type="checkbox" name="check4" id="check4"> Design</label>
+                    
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <label>Write a Review (Optional)
+                    <textarea name="review" id="review"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Your Name (Optional)
+                    <input type="text" id="username" name="username">
+                </label>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Post Review">
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        <p>© <span id="currentYear"></span> - Ryder Bailey - California</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
