@@ -35,7 +35,7 @@ products.forEach(product => {
     container.appendChild(option);
 });
 
-const form = document.getElementById('form1') 
+const form = document.getElementById('form1')
 form.addEventListener('submit', (event) => {
     const currentCount = localStorage.getItem("formSubmissions") || 0;
     localStorage.setItem("formSubmissions", parseInt(currentCount) + 1);

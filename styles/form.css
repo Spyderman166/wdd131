@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'roboto', serif;
 }
 
 input[type="radio"] {
@@ -15,7 +16,7 @@ input[type="radio"] {
     justify-content: left;
 }
 
-.stars > label {
+.stars>label {
     color: gold;
     width: 30px;
     height: 30px;
@@ -26,15 +27,15 @@ input[type="radio"] {
     caret-color: rgba(0, 0, 0, 0);
 }
 
-.stars > label:hover {
+.stars>label:hover {
     color: #000;
 }
 
-.stars > label::before {
+.stars>label::before {
     content: "\2606";
 }
 
-.stars input:checked ~ label::before {
+.stars input:checked~label::before {
     content: "\2605";
 }
 
@@ -58,7 +59,10 @@ fieldset {
     padding: 1rem;
 }
 
-.product select, input[type="date"], input[type="text"], textarea{
+.product select,
+input[type="date"],
+input[type="text"],
+textarea {
     background-color: #eee;
     display: block;
     border: solid 1px #b8b8b8;
@@ -66,7 +70,7 @@ fieldset {
     color: #474747;
     width: 100%;
     max-width: 400px;
-    
+
 }
 
 label {
@@ -101,5 +105,5 @@ footer {
     justify-content: center;
     align-items: center;
     height: 86vh;
-    
+
 }
