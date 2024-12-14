@@ -1,0 +1,26 @@
+@media screen and (min-width:500px) {
+
+    nav {
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    nav a {
+        display: flex;
+        padding: 0.5rem;
+        padding-right: 2rem;
+        margin-right: 1rem;
+    }
+
+    .info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .facts ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    #menu {
+        display: none;
+    }
+}
